@@ -1,0 +1,17 @@
+name: GodlyWeapons
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  godweapon:
+    description: View or obtain a godly weapon.
+    usage: /godweapon <list|give> [weapon] [player]
+    aliases: [gw]
+    permission: godlyweapons.use
+permissions:
+  godlyweapons.use:
+    description: Allows using the god weapon commands.
+    default: op
+  godlyweapons.admin:
+    description: Allows giving god weapons to other players.
+    default: op
